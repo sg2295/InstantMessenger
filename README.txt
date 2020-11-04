@@ -1,6 +1,6 @@
 About the application:
-> This instant messaging application  was written as a solution to a coursework assigned by the University of Bath, and
-  was awarded a First. The coursework was used to assess students' understanding of concurrency and networking in Java.
+> This instant messaging application  was written as a solution to a coursework and was awarded a First. 
+  The coursework was used to assess students' understanding of concurrency and networking in Java.
 
 > The application consists of a Server, Client, and Bot component.
 
