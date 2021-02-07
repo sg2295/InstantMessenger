@@ -1,7 +1,8 @@
 # Instant Messenger 💬
 ## About the application 📄
 This Instant Messaging application  was written as an extension to a university assigned coursework, which was used to assess students' understanding of multithreading and networking in Java.
-> The application consists of a Server, Client, and Bot component.
+
+The application consists of a Server, Client, and Bot component.
 ### Chat Server 🖥️
 The multi-threaded Server spawns threads to handle incoming Client requests in parallel, in order to supports multiple client connections simultaneously. When the Server receives a message from a client, it broadcasts it to all connected clients. In addition, the Server does not stop if one or more clients disconnect from it. It can shut down cleanly by the user entering the "EXIT" command on the terminal. Instructions on how to run the Server can be found below.
 ### Chat Client 💻
@@ -9,7 +10,7 @@ The Client, once connected, is capable of sending, and receiving messages from t
 ### Chat Bot 🤖
 The Bot functions like any other Client. Once started, the Bot connects to the Server and begins interacting with other Clients, who use the '@bot' identifier. Whenever the Bot receives a message including the identifier, it will generate a suitable response, document it in the Bot's console, and send it to the Server. The Bot can disconnect from the server, and cleanly shut down by typing the "EXIT" command in the command line.
 
-## Instructions ⚙️
+## Instructions 📜
 ### Server
   - To start the Server, run the ChatServer Class.
   - You can use the -csp optional parameter to change the port that is used to listen for new Client connections.
